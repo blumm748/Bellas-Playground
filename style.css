@@ -75,7 +75,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
     align-items: center;
 }
 .bubbleBella {
-    grid-area: 5/2/6/3;
+    grid-area: 3/2/4/3;
     width: 53vw;
     height: 7vh;
 
