@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
 }
 
 /* bella */
@@ -15,8 +15,8 @@
 .topscreenBella{
 position: absolute;
 white-space: nowrap;
-margin: 4vh;
-margin-top: 6vh;
+margin: 4dvh;
+margin-top: 6dvh;
 padding: 1vw;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-style: italic;
@@ -30,7 +30,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
 
 .headerBella{
     display: flex;
-    margin-top: 13vh;
+    margin-top: 13dvh;
     padding: 0em;
     justify-content: center;
     align-items: center;
@@ -57,9 +57,9 @@ border-bottom: solid 2px rgb(255, 255, 255);
     display: flex;
     align-items:flex-start;
     justify-content: center;
-    height: 10vh;
-    margin-top: 27vh;
-    margin-bottom: 63vh;
+    height: 10dvh;
+    margin-top: 27dvh;
+    margin-bottom: 63dvh;
     width: 100%;
     z-index: 4;
     overflow: hidden;
@@ -93,7 +93,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
 
 .gradientBella{
   position: fixed;
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
   object-fit: cover;
   align-items: center;
@@ -101,7 +101,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
 }
 
 .gradientBella img{
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
 }
 
@@ -110,7 +110,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
   display: flex;
   align-items:flex-end;
   justify-content: center;
-  height: 60vh;
+  height: 60dvh;
   width: 100%;
   object-fit: contain;
   z-index: 2;
@@ -128,7 +128,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
     position: absolute;
     flex-direction: column;
     width: 50vw;
-    height: 10vh;
+    height: 10dvh;
     z-index: 8;
     justify-content: center;
     align-items: center;
@@ -140,7 +140,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
 .bubbleBella {
     /* transform: translate(-20%, -40%); */
     width: 53vw;
-    height: 4vh;
+    height: 4dvh;
 
     /* position: relative; */
     background: rgb(0, 0, 0);
@@ -225,7 +225,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
 
 .frameBella{
   position: fixed;
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
   object-fit: cover;
   align-items: center;
@@ -245,7 +245,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
 .bgColorDuncan{
   position: fixed;
   width: 110vw;
-  height: 110vh;
+  height: 110dvh;
   background-color: black;
   z-index: -2;
 }
@@ -329,7 +329,7 @@ canvas{
 
 .toyIndex{
   position: relative;
-  height: 120vh;
+  height: 120dvh;
 }
 
 
@@ -342,7 +342,7 @@ canvas{
 
 body{
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background-color: rgb(255, 33, 33);
 }
 
