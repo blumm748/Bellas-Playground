@@ -3,10 +3,17 @@
     padding: 0;
 }
 
+.landingPage{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
 /* bella */
 
 .topscreenBella{
-position: fixed ;
+position: absolute;
 white-space: nowrap;
 margin: 4vh;
 margin-top: 6vh;
@@ -23,10 +30,11 @@ border-bottom: solid 2px rgb(255, 255, 255);
 
 .headerBella{
     display: flex;
-    margin-top: 11vh;
+    margin-top: 16vh;
     padding: 0em;
-    justify-content: center; 
-    position: fixed;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     width: 100%;
     z-index: 5;
 }
@@ -37,18 +45,18 @@ border-bottom: solid 2px rgb(255, 255, 255);
 } */
 
 .headerBella img{
-  max-width:95vw;
+  max-width:75vw;
   height: auto;
 }
 
 
 .footerBella{
-    position: fixed;
+    position: absolute;
     display: flex;
     align-items:flex-start;
     justify-content: center;
     height: 100vh;
-    margin-top: 26vh;
+    margin-top: 28vh;
     width: 100%;
     z-index: 4;
 }
@@ -59,7 +67,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
 } */
 
 .footerBella img{
-  max-width:95vw;
+  max-width: 80vw;
   height: auto;
   filter: drop-shadow(0 0.7em 3px rgb(0, 0, 0));
 }
@@ -67,7 +75,6 @@ border-bottom: solid 2px rgb(255, 255, 255);
 .bubblegridBella{
     display: flex;
     flex-direction: column;
-    position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: 8;
@@ -77,20 +84,19 @@ border-bottom: solid 2px rgb(255, 255, 255);
 .bubbleBella {
     /* transform: translate(-20%, -40%); */
     width: 53vw;
-    height: 7vh;
-    margin-right: 6em;
-    margin-bottom: 7em;
+    height: 4vh;
+    margin-bottom: 6em;
 
 
-    position: fixed;
-    background: rgba(255, 255, 255, 1);
-    color: #000000;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    color: #bababa;
     font-family: Arial;
     font-size: 1em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     text-align: center;
-    line-height: 4em;
+    line-height: 2em;
     border-radius: 3em;
     padding: 0px;
     border: 6px;
@@ -116,10 +122,10 @@ border-bottom: solid 2px rgb(255, 255, 255);
     width: 0;
     z-index: 1;
     border-style: solid;
-    border-color: #ffffff transparent;
-    border-width: 33px 15px 0;
-    bottom: -30px;
-    left: 80%;
+    border-color: #000000 transparent;
+    border-width: 25px 12px 0;
+    bottom: -20px;
+    left: 40%;
     margin-left: -15px;
 }
 
@@ -129,10 +135,10 @@ border-bottom: solid 2px rgb(255, 255, 255);
     width: 0;
     z-index: 0;
     border-style: solid;
-    border-color: #c7c7c7 transparent;
-    border-width: 39px 19px 0;
-    bottom: -40px;
-    left: 80.9%;
+    border-color: #bababa transparent;
+    border-width: 30px 15px 0;
+    bottom: -32.5px;
+    left: 41.5%;
     margin-left: -21px;
     display: block;
 }
@@ -175,18 +181,20 @@ border-bottom: solid 2px rgb(255, 255, 255);
 }
 
 .gradientBella{
-  position: fixed;
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  align-items: center;
+  display: block;
 }
 
 .gradientBella img{
-  max-width: 100vw;
+  height: 100vh;
 }
 
 .bellaBella{
-  position: fixed;
+  position: absolute;
   display: flex;
   align-items:flex-end;
   justify-content: center;
@@ -201,7 +209,7 @@ border-bottom: solid 2px rgb(255, 255, 255);
 }
 
 .frameBella{
-  position: fixed;
+  position: absolute;
   height: 100vh;
   width: 100vw;
   object-fit: cover;
@@ -303,7 +311,10 @@ canvas{
   animation-direction: alternate;
 }
 
-
+.toyIndex{
+  position: relative;
+  height: 120vh;
+}
 
 
 @media (min-width: 465px){
