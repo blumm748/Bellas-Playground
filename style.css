@@ -15,79 +15,61 @@
 /* bella landing page*/
 
 .topscreenBella{
-position: absolute;
-white-space: nowrap;
-margin: 4dvh;
-margin-top: 6dvh;
-padding: 1vw;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-style: italic;
-animation: marquee 5s linear infinite;
-color: #ffffff;
-z-index: 3;
-border-top: solid 2px rgb(255, 255, 255);
-border-bottom: solid 2px rgb(255, 255, 255);
-pointer-events: none;
+  position: absolute;
+  white-space: nowrap;
+  margin: 4dvh;
+  margin-top: 6dvh;
+  padding: 1vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  animation: marquee 5s linear infinite;
+  color: #ffffff;
+  z-index: 3;
+  border-top: solid 2px rgb(255, 255, 255);
+  border-bottom: solid 2px rgb(255, 255, 255);
+  pointer-events: none;
+}
 
-
+.bellahf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  pointer-events: none;
+  overflow: visible;
 }
 
 .headerBella{
-    display: flex;
-    margin-top: 11dvh;
-    padding: 0em;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    z-index: 9;
-    overflow: visible;
-    pointer-events: none;
-
-
+  display: flex;
+  margin-top: 4em;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
 }
-/* #header h1{
-    margin-top: 10px;
-    margin-left: 15px;
-    font-size: 7vw;
-} */
 
 .headerBella img{
-  max-width:85vw;
+  max-width:70vw;
   height: auto;
   filter: drop-shadow(0.1em 0.4em 0px rgb(0, 0, 0));
-  pointer-events: none;
-
 }
 
 
 .footerBella{
-    position: absolute;
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
-    height: 10dvh;
-    margin-top: 27dvh;
-    margin-bottom: 63dvh;
-    width: 100%;
-    z-index: 8;
-    pointer-events: none;
-
-    /* overflow: hidden; */
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1em;
+  margin-top: 2dvh;
+  z-index: 12;
+  pointer-events: none;
 }
-/* #header h1{
-    margin-top: 10px;
-    margin-left: 15px;
-    font-size: 7vw;
-} */
 
 .footerBella img{
-  max-width: 90vw;
+  max-width: 70vw;
   height: auto;
   filter: drop-shadow(0.1em 0.4em 0px rgb(0, 0, 0));
   pointer-events: none;
-
 }
 
 
@@ -118,61 +100,48 @@ pointer-events: none;
   align-items: center;
   display: block;
   pointer-events: none;
-
 }
 
 .gradientBella img{
   height: 100dvh;
   width: 100vw;
   pointer-events: none;
+}
 
+.bbb{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  pointer-events: none;
+  overflow: visible;
+  margin: 0em auto;
+  margin-top: 9em;
+  height: 50dvh;
+  width: 70vw;
 }
 
 .bellaBella{
-  position: relative;
   display: flex;
-  align-items:flex-end;
+  align-items: center;
   justify-content: center;
-  height: 60dvh;
+  height: 23em;
   width: 100%;
   object-fit: contain;
   z-index: 2;
-  transform: translateY(70%);
   pointer-events: none;
-
-  /* overflow: hidden; */
-
 }
+
 
 .bellaBella img{
   max-width: 100vw;
   pointer-events: none;
-
-}
-
-.bubblegridBella{
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    margin-right: 5em;
-    width: 50vw;
-    height: 13dvh;
-    z-index: 8;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-390%);
-    pointer-events: none;
-
-    /* overflow: hidden; */
-
 }
 
 .bubbleBella {
-    /* transform: translate(-20%, -40%); */
     width: 48vw;
-    height: 4dvh;
-
-    position: relative;
+    height: 2.5em;
     background: rgb(0, 0, 0);
     /* border-top: solid 2px rgb(255, 255, 255);
     border-bottom: solid 2px rgb(255, 255, 255); */
@@ -182,8 +151,7 @@ pointer-events: none;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     text-align: center;
-    line-height: 2em;
-    padding-bottom: 3px;
+    line-height: 0em;
     border-radius: 3em;
     border: 3px;
     border-style: groove;
@@ -191,6 +159,7 @@ pointer-events: none;
     white-space: nowrap;
     z-index: 6;
     pointer-events: none;
+    position: relative;
 
     
 
@@ -202,17 +171,16 @@ pointer-events: none;
     animation-fill-mode: backwards;
     -webkit-animation-fill-mode: backwards;
 
-    /* overflow: hidden; */
 }
 
 .bubbleBella::after {
     content: '';
-    position: absolute;
-    bottom: -2.5em;    
+    display: flex;
+    position: relative;
+    bottom: -0.7em;    
     left: 0%;    
-    transform: translateX(40%);
-    width: 1.8em;
-    height: 1.8em;
+    width: 1.6em;
+    height: 1.6em;
     background: black;
     border: 3px groove #bababa;
     border-radius: 50%;
@@ -221,16 +189,16 @@ pointer-events: none;
 
 .bubbleBella::before {
     content: '';
-    position: absolute;
-    bottom: -4em;    
-    left: 0%;    
-    transform: translateX(150%);
+    display: flex;
+    position: relative;
+    bottom: -3em;    
+    left: 10%;    
     width: 1em;
     height: 1em;
     background: black;
     border: 3px groove #bababa;
     border-radius: 50%;
-    z-index: 5;
+    z-index: 6;
 
 }
 
@@ -267,6 +235,7 @@ pointer-events: none;
   align-items: center;
   z-index: 7;
   pointer-events: none;
+  opacity: 1;
 
 }
 
