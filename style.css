@@ -454,7 +454,7 @@ canvas{
     border-radius: 2em;
     padding: 1dvh;
 
-    outline: 3mm ridge #fff2e3;
+    outline: 3mm ridge rgb(237, 206, 172);
     background-color: #000000;
 
     z-index: 1000;
@@ -469,12 +469,13 @@ canvas{
     justify-content: center;
     align-items: center;
 
-    color: #fff2e3;
+    color: rgb(237, 206, 172);
     background-color: #000000;
     font-size: 2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
   }
 
 
