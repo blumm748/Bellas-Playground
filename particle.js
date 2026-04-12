@@ -25,10 +25,10 @@ class Particle {
   constructor(x, y) {
     this.position = createVector(x, y);
     this.velocity = p5.Vector.random2D();
-    this.velocity.mult(random(1, 6));
+    this.velocity.mult(random(1, 3));
     this.acceleration = createVector(0, 0);
     this.mass = random(2, 6);
-    this.r = sqrt(this.mass) * 20;
+    this.r = sqrt(this.mass) * 10;
     // images!
     this.img = random(particleImages);
     this.angle = random(TWO_PI);
