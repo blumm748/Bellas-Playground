@@ -449,9 +449,11 @@ canvas{
     width: auto;
     height: auto;
     position: fixed;
-    top: 70vh;
-    right: 30vw;
-    left: 30vw;
+    
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
     z-index: 10;
     justify-content: center;
     align-items: center;
@@ -484,6 +486,30 @@ canvas{
     text-decoration: none;
   }
 
+
+  .duncanFooter marquee{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top:0dvh;
+    margin-bottom: 6dvh;
+
+    top: 92%;
+    left: 0%;
+    transform: translate(0%, 50%);
+    opacity: 0.9;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-style: italic;
+    color: rgb(237, 206, 172);
+    border-top: solid 1px rgb(237, 206, 172);
+    border-bottom: solid 1px rgb(237, 206, 172);
+    background-color: #000000;
+    pointer-events: none;
+
+}
 
 
 
