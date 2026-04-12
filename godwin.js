@@ -81,7 +81,7 @@ const closeModal = (form) => form.close();
         img.alt = '';
         img.style.width = '100%';
         img.style.height = '100%';
-        img.style.objectFit = 'contain';
+        img.style.objectFit = 'cover';
         img.style.display = 'block';
         box.appendChild(img);
 
