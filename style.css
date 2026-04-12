@@ -486,19 +486,18 @@ canvas{
     text-decoration: none;
   }
 
-
-  .duncanFooter marquee{
-    display: flex;
+  .duncanFooter{
     position: fixed;
+    bottom: 1em;
+    left: 0;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:0dvh;
-    margin-bottom: 6dvh;
+  }
 
-    top: 95%;
-    /* left: 0%;
-    transform: translate(0%, 0%); */
-    width: 100vw;
+  .duncanFooter marquee{
+
     opacity: 0.9;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
