@@ -603,6 +603,7 @@ canvas{
   
   .buttons {
     margin: 30em 0em 5em 0em;
+    padding: 0em;
     position: absolute;
     display: flex;
     width: 6em;
@@ -626,6 +627,7 @@ canvas{
 
   }
 
+
   .godwinFooter marquee{
   display: flex;
   position: relative;
@@ -633,7 +635,7 @@ canvas{
   align-items: center;
   margin-top:0.5dvh;
   margin-bottom: 4dvh;
-  width: 28em;
+  width: 100vw;
   height: 1.6em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1em;
