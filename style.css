@@ -490,13 +490,16 @@ canvas{
     position: fixed;
     bottom: 1em;
     left: 0;
-    width: 100%;
+    width: 100lvw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .duncanFooter marquee{
+
+    width: 100%;
+    display: block;
 
     opacity: 0.9;
 
