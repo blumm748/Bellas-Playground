@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 html, body{
@@ -440,8 +440,8 @@ canvas{
 .topscreenGodwin{
 position: fixed ;
 white-space: nowrap;
-margin:2vh;
-padding: 3vw;
+margin:1em;
+padding: 0.5em;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-style: italic;
 animation: marquee 5s linear infinite;
@@ -455,9 +455,9 @@ z-index: 2;
 
 #headerGodwin{
     display: flex;
-    margin-top: 5vh;
+    margin-top: 6vh;
     justify-content: left; 
-    margin-left: 2em;
+    margin-left: 1em;
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -469,7 +469,7 @@ z-index: 2;
 } */
 
 #headerGodwin img{
-  max-width:20em;
+  max-width:15em;
   height: auto;
 }
 
@@ -482,6 +482,7 @@ z-index: 2;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
   }
   
   .doors {
@@ -490,10 +491,10 @@ z-index: 2;
   
   .door {
     background: #000000;
-    width: 10em;
-    height: 40em;
+    width: 9em;
+    height: 35em;
     overflow: hidden;
-    margin-top: 15vh;
+    margin-top: 10em;
     margin-bottom: 1em;
     border: 3mm ridge rgb(254, 209, 255);
 
@@ -512,96 +513,35 @@ z-index: 2;
   }
   
   .buttons {
-    margin: 1rem 0 0rem 0;
+    margin: 32em 0em 2rem 0em;
+    position: absolute;
+    display: flex;
+    width: 6em;
+    height: 3em;
+    transform: rotate(0deg);
+    border-radius: 2%;
+    text-wrap: wrap;
+    overflow: hidden;
+    background-color: #fed1ff;
+
+    outline: 3mm ridge #fed1ff;
+
   }
   
   button {
-    background-color: #fed1ff;
-    outline: 1px solid black;
-    outline-offset: 0px;
-    font-size: 1.2rem;;
-    border-radius: 15px;
-    padding: 5px 10px;
-    /* margin-bottom: 1em; */
+    /* outline-offset: 0px; */
+    font-size: 1rem;;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #5695d2;
+
 
   }
 
-  button:active{
+  /* button:active{
     transform: translateY(4px);
     transition: 0.01s ease-in;
     background-color: #5695d2;
     
-  }
+  } */
 
-
-/* @media (min-width: 390px){
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-  width: 100vw;
-  height: 100dvh;
-  background-color: rgb(255, 33, 33);
-}
-
-.topscreenBella {
-  display: none;
-}
-
-.wallpaperBella{
-  display: none;
-}
-
-.bellaBella {
-  display: none;
-}
-
-.bubbleBella{
-  display: none;
-}
-
-.headerBella{
-  display: none;
-}
-
-.footerBella{
-  display: none;
-}
-
-.gradientBella{
-  display: none;
-}
-
-.frameBella{
-  display: none;
-}
-
-#headerDuncan{
-  display: none;
-}
-.bgColorDuncan{
-  display: none;
-}
-
-.bgImageDuncan{
-  display: none;
-}
-
-canvas{
-  display: none;
-}
-
-.marqueeScreenDuncan{
-  display: none;
-}
-
-.headerDuncan{
-  display: none;
-}
-
-} */
 
