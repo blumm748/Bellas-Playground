@@ -437,6 +437,48 @@ canvas{
   animation-direction: alternate;
 }
 
+  .buttonsDuncan {
+
+    display: flex;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 75vh;
+    right: 30vw;
+    left: 30vw;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    border-radius: 2em;
+    padding: 1dvh;
+
+    outline: 3mm ridge #fff2e3;
+    background-color: #000000;
+
+    z-index: 1000;
+
+
+  }
+
+  .buttonsDuncan a{
+    pointer-events: all;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff2e3;
+    background-color: #000000;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+
+
 
 /* godwin */
 
