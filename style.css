@@ -447,8 +447,8 @@ font-style: italic;
 animation: marquee 5s linear infinite;
 color: #000000;
 background-color: #fed1ff;
-border-top: solid 2px black;
-border-bottom: solid 2px black;
+border-top: solid 1px black;
+border-bottom: solid 1px black;
 z-index: 2;
 
 }
@@ -529,11 +529,10 @@ z-index: 2;
   }
   
   button {
-    /* outline-offset: 0px; */
-    font-size: 1rem;;
+    font-size: 1em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #000000;
-    background-color: #5695d2;
+    background-color: #fff2e3;
 
 
   }
