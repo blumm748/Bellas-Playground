@@ -353,7 +353,8 @@ html, body{
   width: 100vw;
   height: 100dvh;
   background-color: black;
-  z-index: -2;
+  position: fixed;
+  z-index: -1;
 }
 
 .bgImageDuncan{
@@ -377,6 +378,8 @@ html, body{
 canvas{
   display: block;
   position: fixed;
+  z-index: 11;
+  pointer-events: none;
 }
 
 .marqueeScreenDuncan{
