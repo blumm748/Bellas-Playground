@@ -3,8 +3,8 @@
 let particles = [];
 
 function setup() {
-  createCanvas(1000, 2200);
-  for (let i = 0; i < 12; i++){
+  createCanvas(windowWidth, windowHeight);
+  for (let i = 0; i < 50; i++){
     let x = random(width);
     let y = random(height);
     particles.push(new Particle(x,y));

@@ -28,7 +28,7 @@ class Particle {
     this.velocity.mult(random(10, 6));
     this.acceleration = createVector(0, 0);
     this.mass = random(2, 6);
-    this.r = sqrt(this.mass) * 60;
+    this.r = sqrt(this.mass) * 30;
     // images!
     this.img = random(particleImages);
     this.angle = random(TWO_PI);
