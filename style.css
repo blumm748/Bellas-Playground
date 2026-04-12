@@ -343,6 +343,7 @@ html, body{
   color: white;
   border-top: solid 2px rgb(255, 255, 255);
   border-bottom: solid 2px rgb(255, 255, 255);
+  background-color: #000000;
 }
 
 /* duncan */
@@ -513,7 +514,7 @@ z-index: 2;
   }
   
   .buttons {
-    margin: 32em 0em 2rem 0em;
+    margin: 35em 0em 5em 0em;
     position: absolute;
     display: flex;
     width: 6em;
@@ -536,6 +537,25 @@ z-index: 2;
 
 
   }
+
+  .godwinFooter marquee{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* margin: 2em; */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 22em;
+  height: 1.6em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1em;
+  font-style: italic;
+  color: white;
+  border-top: solid 2px rgb(255, 255, 255);
+  border-bottom: solid 2px rgb(255, 255, 255);
+  background-color: #000000;
+}
 
   /* button:active{
     transform: translateY(4px);
