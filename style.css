@@ -495,9 +495,10 @@ canvas{
     margin-top:0dvh;
     margin-bottom: 6dvh;
 
-    top: 92%;
-    left: 0%;
-    transform: translate(0%, 0%);
+    top: 95%;
+    /* left: 0%;
+    transform: translate(0%, 0%); */
+    width: 100vw;
     opacity: 0.9;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
